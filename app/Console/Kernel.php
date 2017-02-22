@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        Commands\WebSocketServer::class
+        Commands\WebSocketServer::class,
+        Commands\PushServer::class
     ];
 
     /**

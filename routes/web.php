@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('push',function(){
+    return view('push');
+});
+
+Route::get('test-push','TestController@testPush');
